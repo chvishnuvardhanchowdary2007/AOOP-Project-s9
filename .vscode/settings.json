@@ -1,0 +1,17 @@
+{
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.21.9-hotspot",
+            "default": true
+        }
+    ],
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.project.sourcePaths": [
+        "case_study_1/src",
+        "case_study_2/src",
+        "case_study_3/src",
+        "case_study_4/src",
+        "case_study_5/src"
+    ]
+}

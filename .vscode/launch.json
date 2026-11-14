@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Case Study 1 - Main",
+            "request": "launch",
+            "mainClass": "com.klu.casestudy1.Main",
+            "projectName": "AOOP_project",
+            "classPaths": ["${workspaceFolder}/bin/main"]
+        },
+        {
+            "type": "java",
+            "name": "Case Study 2 - Main",
+            "request": "launch",
+            "mainClass": "com.klu.casestudy2.Main",
+            "projectName": "AOOP_project",
+            "classPaths": ["${workspaceFolder}/bin/main"]
+        },
+        {
+            "type": "java",
+            "name": "Case Study 3 - Main",
+            "request": "launch",
+            "mainClass": "com.klu.casestudy3.Main",
+            "projectName": "AOOP_project",
+            "classPaths": ["${workspaceFolder}/bin/main"]
+        },
+        {
+            "type": "java",
+            "name": "Case Study 4 - Main",
+            "request": "launch",
+            "mainClass": "com.klu.casestudy4.Main",
+            "projectName": "AOOP_project",
+            "classPaths": ["${workspaceFolder}/bin/main"]
+        },
+        {
+            "type": "java",
+            "name": "Case Study 5 - Main",
+            "request": "launch",
+            "mainClass": "com.klu.casestudy5.Main",
+            "projectName": "AOOP_project",
+            "classPaths": ["${workspaceFolder}/bin/main"]
+        }
+    ]
+}

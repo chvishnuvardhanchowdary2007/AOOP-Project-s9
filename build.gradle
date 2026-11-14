@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.klu.aoop'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = [
+                'case_study_1/src',
+                'case_study_2/src',
+                'case_study_3/src',
+                'case_study_4/src',
+                'case_study_5/src'
+            ]
+        }
+    }
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
